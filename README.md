@@ -23,3 +23,25 @@ npm run dev
 3. Cleanup은 언제 실행되는가? 개발 환경 StrictMode 영향은?
 4. `useState`와 `useRef`의 값 변경 시 렌더링 차이는?
 5. LAB 2와 LAB 4에서 Timer를 관리하는 방식의 차이는?
+
+1. Project Information: 프로젝트 소개 및 Starter Project 정보
+        프로젝트 소개:
+        훅 useEffect useRef 중 useEffect와Cleanup을 이해라기 위해 위한 프로젝트
+
+        lab1:
+        외부 시스템과 컴포넌트를 동기화하기 위해 사용하는 Hook 인 useEffec의 사용법을 익히고 []를 사용한것과 사용하지 않은것의 차이를 확인해 보기 위한 예제
+
+        lab2:
+
+        lab3:
+
+        lab4:
+
+
+2. Installation: 설치·실행 방법 및 실행 화면
+3. Source Code Exploration: 주요 파일 구조, useEffect 및 useRef 분석, 주요 코드 2개 설명
+4. Lab Implementation: 4개 Lab 구현 내용 및 실행 결과
+5. Lab Comparison: STEP 3의 비교 분석 질문 4개에 대한 답변
+6. Customizing: 수정 내용 및 파일명
+7. Deployment: 실제 접근 가능한 Vercel URL
+8. Weekly Review:
