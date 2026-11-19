@@ -32,8 +32,10 @@ npm run dev
         외부 시스템과 컴포넌트를 동기화하기 위해 사용하는 Hook 인 useEffec의 사용법을 익히고 []를 사용한것과 사용하지 않은것의 차이를 확인해 보기 위한 예제
 
         lab2:
+        외부 시스템과 컴포넌트를 동기화하기 위해 사용하는 Hook 인 useEffec의 사용법을 중 Dependency Array에서 특정 state가 바뀔떄마다 샐행됨을 이해하기 위한 예제
 
         lab3:
+        useRef를 사용해서 랜더링 되더라도 값이 그대로 유지됨을 이해하고
 
         lab4:
 
@@ -45,3 +47,27 @@ npm run dev
 6. Customizing: 수정 내용 및 파일명
 7. Deployment: 실제 접근 가능한 Vercel URL
 8. Weekly Review:
+
+<!--
+dependen챧ㄴ: 실해되는 시점
+
+mount
+
+unmount
+
+efect가 먼저 실행
+ 두번째 실행 직전에 클린업 실행
+
+
+클린업은 정리하는 작업
+
+
+useEffect(fn,[]):최초 마운트 
+useEffect(fn):커밋될떄 (프롭스와 스테이트가 바뀌었을때)실행
+useEffect(fn,[count]):카운트가 변결될때 마다 실행
+
+
+useEffect(클린업,[]):언마운트 될떄
+useEffect(클린업) 커밋되기 직전에 정리를 함
+ 
+-->

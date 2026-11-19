@@ -9,13 +9,13 @@ export default function Lab1EffectTimer() {
     // TODO 1: 1초마다 setCount(prev => prev + 1)을 실행할 setInterval 작성
     // TODO 2: 만든 타이머 ID를 보관
     const id = setInterval(() => {
-      setCount(prev => prev + 1);
+      setCount(prev => prev + 1);//setCount(count) + 1)의 경우 에로우 함수가 없음으로 버튼을 몇번 누르던지 결국 1이 나옴
       
     }, 1000);
     // TODO 3: return Cleanup 함수에서 clearInterval 호출
     return()=>clearInterval(id);
     // TODO 4: Dependency Array가 []일 때와 생략했을 때의 차이 관찰
-  }, []);
+  },[]);
 
   return (
     <div>
